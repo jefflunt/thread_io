@@ -7,7 +7,7 @@
 #
 #   # optional loop until the file is read
 #   loop do
-#     breadk if tio.ready?
+#     break if tio.ready?
 #     sleep 1
 #   end
 #
